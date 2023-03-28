@@ -1,0 +1,23 @@
+/* 
+Board style
+Board Background: #3f3f3f
+Cell Background: #5e5e5e
+ */
+.board-app {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.board {
+    color: #fff;
+    background-color: #3f3f3f;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.board-cell {
+    border-radius: 6px;
+    background-color: #5e5e5e;
+}
